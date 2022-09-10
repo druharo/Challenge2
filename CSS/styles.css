@@ -1,48 +1,44 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-
+/* rules apply to the whole body */
 body {
   margin: 0;
   font-family:Arial, Helvetica, sans-serif;
   background-color: #ededf6;
   color: #445776;
 }
-
+/* targeting header */
 .header {
+  display: flex;
   overflow: hidden;
   background-color: #32343d;
   padding: 20px 10px 20px 0px;
   margin: 0px;
-  justify-content: flex-end;
+  justify-content: space-between;
 
 }
-
+/* tageting only nav elements */
 .header-right a {
   color: #92cccd;
-  text-align: center;
-  padding: 12px;
+  text-align: right;
+  padding: 20px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 40px;
   line-height: 25px;
   border-bottom: 5px solid #92cccd;
   margin-right: 10px;
   
 }
-
+/* targeting the header and logo styles */
 .header a.logo {
-  font-size: 25px;
+  font-size: 90px;
   font-weight: bold;
   background-color:#92cccd;
   color:#32343d;
   padding: 10px;
   text-decoration: none;
   justify-content: flex-start;
-}
-
-.header-right a:hover {
-border-bottom: 5px solid #92cccd;
-color:#92cccd;
 }
 
 .header-right a.active {
@@ -59,12 +55,13 @@ color:#92cccd;
   background-color: black;
   background-size: cover;
   width: 100%;
-  background-image: url("../images/ch2pic1.jpg");
+  background-image: url("../images/Nile.jpg");
   padding: 20px;
   justify-content: flex-end;
 
 }
-.port{
+/* main content begins here */
+.port {
   font-size: 25px;
   font-weight: bold;
   margin: 0px;
@@ -74,7 +71,7 @@ color:#92cccd;
   padding: 10px;
   text-decoration: none;
 }
-
+/* targeting my picture and title */
 .image2{
   margin: 0px;
 }
@@ -83,14 +80,14 @@ color:#92cccd;
   width: 185px;
   float: right;
 }
-
+/* container 1 content styling */
   .aboutme {
 display: flex;
 padding: 30px;
   }
 
-  .aboutme1{
-    font-size: 35px;
+  .aboutme1 {
+    font-size: 75px;
     text-align: right;
     flex: 20%;
     padding: 0px 30px 0px 100px;
@@ -99,16 +96,18 @@ padding: 30px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
   }
-  .aboutme2{
+  .aboutme2 {
     padding-left: 20px;
     flex: 80%;
+    font-size: 30px;
   }
+  /* container 2 styling */
   .mywork {
     display: flex;
     padding: 30px;
       }
-      .mywork1{
-        font-size: 35px;
+      .mywork1 {
+        font-size: 75px;
         text-align: right;
         flex: 20%;
         padding: 0px 30px 0px 100px;
@@ -121,12 +120,10 @@ padding: 30px;
         flex:80%;
       }
       .works{
-          
           width: 100%;
-          display:flex;
-      
-
+          display:flex;  
       }
+
       .worksfull {
         
         display:flex;
@@ -134,7 +131,9 @@ padding: 30px;
         background-size: cover;
         flex: 100%;
         height: 400px;
-        background-image: url("../images/ch2pic1.jpg");
+        background-image: url("../images/sky2.jpg");
+        background-repeat: no-repeat;
+        background-size: 5000px 1000px;
         padding: 20px 20px 20px 0px;
         border: 5px solid #92cccd;
         margin: 5px;
@@ -147,16 +146,16 @@ padding: 30px;
         .port2 {
           font-size: 25px;
           font-weight: bold;
-           margin: 0px;
-  background-color:#92cccd;
-  color:#32343d;
-  width: 185px;
-  padding: 10px;
-  align-self: flex-end;
-  text-decoration: none;
-  height: 70px;
-  align-self: flex-end;
-  line-height: 1em;
+          margin: 0px;
+          background-color:#92cccd;
+          color:#32343d;
+          width: 185px;
+          padding: 10px;
+          align-self: flex-end;
+          text-decoration: none;
+          height: 70px;
+          align-self: flex-end;
+          line-height: 1em;
 
         }
 
@@ -166,12 +165,15 @@ padding: 30px;
           background-size: cover;
           flex: 50%;
           height: 150px;
-          background-image: url("../images/ch2pic1.jpg");
+          background-image: url("../images/sky1.jpg");
+          background-size: 2000px 12000px;
+          background-size: auto;
+          background-repeat: no-repeat;
           padding: 20px 20px 20px 0px;
           border: 5px solid #92cccd;
           margin: 5px;
         }
-
+/* styling for the footer content */
         .footer {
           display: flex;
           padding: 30px;
@@ -179,7 +181,7 @@ padding: 30px;
             }
           
             .footer1{
-              font-size: 35px;
+              font-size: 75px;
               text-align: right;
               flex: 20%;
               padding: 0px 30px 0px 100px;
@@ -191,45 +193,46 @@ padding: 30px;
             .footer2{
               padding-left: 20px;
               flex: 80%;  
-              padding-top: 60px; 
+              padding-top: 200px; 
             }
             .footer-right a{
               color: #32343d;
-  text-align: center;
-  padding: 12px;
-  font-weight: bold;
-  text-decoration: none;
-  font-size: 25px;
-  line-height: 25px;
-  width: 20%;
-  border-bottom: 5px solid #32343d;
-  margin-right: 10px;
-            }
-            .footer-right a:hover {
+              text-align: center;
+              padding: 12px;
+              font-weight: bold;
+              text-decoration: none;
+              font-size: 40px;
+              line-height: 25px;
+              width: 20%;
               border-bottom: 5px solid #32343d;
-              color:#32343d;
-              }
+              margin-right: 10px;
+            }
+            .footer-right a:hover{
+              border-bottom: 5px solid #32343d;
+              color:#92cccd;
+            }
+           /* styling for hover targeted elements */ 
+            a:hover {
+                background-color:#445776;
+            }
+
+            .worksquarter:hover{
+            opacity: 0.2;
+            }
+            .worksfull:hover{
+              opacity: 0.2;
+        }
               
-              .footer-right a.active {
+           .footer-right a.active{
                 border-bottom: 5px solid #9fffff;
-                color:#32343d;     
+                color:#92cccd;   
+           }  
 
 @media screen and (max-width: 500px) {
   .header a {
     float: none;
     display: block;
     text-align: left;
+    font-size: 300;
   }
- 
-  .header-right {
-    float: right;
-  }
-  .footer a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
- 
-  .footer-right {
-    float: right;
-  }
+  

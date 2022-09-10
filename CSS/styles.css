@@ -133,7 +133,6 @@ body {
   height: 400px;
   background-image: url("../images/sky2.jpg");
   background-repeat: no-repeat;
-  background-size: 5000px 1000px;
   padding: 20px 20px 20px 0px;
   border: 5px solid #92cccd;
   margin: 5px;
@@ -166,8 +165,6 @@ body {
   flex: 50%;
   height: 150px;
   background-image: url("../images/sky1.jpg");
-  background-size: 2000px 12000px;
-  background-size: auto;
   background-repeat: no-repeat;
   padding: 20px 20px 20px 0px;
   border: 5px solid #92cccd;

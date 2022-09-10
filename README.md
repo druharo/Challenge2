@@ -1,2 +1,21 @@
-# Challenge2
-Repository for Challenge2
+# MY PORTFOLIO PAGE
+## INSTALLATION AND UPDATES MADE:
+1. The page was built using HTML5 and CSS3, deployed using Github tools and is hostested on Githut. Links and the screen shot are attached herewith.
+![image info](./Screenshot.png)
+
+2. 5 key changes were made and pushed to github repository. initial  commit, update to the code (HTML and CSS), inserting images, updating the media query and creation of page in Github.
+
+3. a number of challanges we encountered during thje development of the site especially with responsive design and inserting background images that can size to different medium.
+
+## MOTIVATION:
+The website was developed as a starting point to building my portfolio site for future employes to veiw, contribute or anaylse my works. 
+
+## LICENSES:
+The code has an MIT License.
+
+
+## CREDITS:
+UMN Bootcamp Tutoring Staff and www.w3schools.com.
+
+
+

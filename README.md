@@ -1,7 +1,9 @@
 # MY PORTFOLIO PAGE
 ## INSTALLATION AND UPDATES MADE:
-1. The page was built using HTML5 and CSS3, deployed using Github tools and is hostested on Githut. Links and the screen shot are attached herewith.
+1. The page was built using HTML5 and CSS3, deployed using Github pages and is hostested on Github. Link and the screen shot are attached herewith.
 ![image info](./Images/Screenshot.png)
+
+link to github pages (https://github.com/druharo/Challenge2)
 
 2. 5 key changes were made and pushed to github repository. initial  commit, update to the code (HTML and CSS), inserting images, updating the media query and creation of page in Github.
 

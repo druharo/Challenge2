@@ -2,6 +2,7 @@
 
 ## INSTALLATION AND UPDATES MADE:
 1. The page was built using HTML5 and CSS3, deployed using Github pages and is hostested on Github. Link and the screen shot are attached herewith.
+
 a) ![image info](../MyPortfolio/Images/myportfolioOct.png)
 b) link to github pages (https://github.com/druharo/MyPortfolio)
 c) Link to the live site (https://druharo.github.io/MyPortfolio/)

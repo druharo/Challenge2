@@ -5,7 +5,7 @@
 
 a) ![image info](../MyPortfolio/Images/myportfolioOct.png)
 b) link to github pages (https://github.com/druharo/MyPortfolio)
-c) Link to the live site (https://druharo.github.io/MyPortfolio/)
+c) Link to the live site ()
 
 2. 5 key changes were made and pushed to github repository. initial  commit, update to the code (HTML and CSS), inserting images, updating the media query and creation of page in Github.
 
